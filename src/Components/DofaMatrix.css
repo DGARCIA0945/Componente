@@ -2,9 +2,9 @@
   max-width: 1000px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: #f4f4f4; /* Gris claro */
+  background: #f4f4f4; 
   border-radius: 8px;
-  border: 10px solid #d0d0d0; /* Borde más grueso */
+  border: 10px solid #d0d0d0; 
 }
 
 .dofa-title {
