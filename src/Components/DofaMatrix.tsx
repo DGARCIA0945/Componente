@@ -18,9 +18,9 @@ export const DofaMatrix = () => {
 
 const handleChange = (key: string, value: string) => {
   setDofa((prev) => {
-    const newState = { ...prev, [key]: value }; // ✅ creamos la copia actualizada
-    console.log("Estado DOFA actualizado:", newState); // 👈 se imprime aquí
-    return newState; // devolvemos el nuevo estado
+    const newState = { ...prev, [key]: value }; 
+    console.log("Estado DOFA actualizado:", newState); 
+    return newState; 
   });
 };
 
