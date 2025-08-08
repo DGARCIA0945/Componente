@@ -1,0 +1,73 @@
+.dofa-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #f4f4f4; /* Gris claro */
+  border-radius: 8px;
+  border: 10px solid #d0d0d0; /* Borde más grueso */
+}
+
+.dofa-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.dofa-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.dofa-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.dofa-heading {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.dofa-card textarea {
+  width: 100%;
+  height: 120px;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  resize: vertical;
+  border: 2px solid #999;
+  border-radius: 10px;
+  outline: none;
+  background: #716f6f;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.dofa-card textarea:focus {
+  border-color: #0077b6;
+  background-color: #575757;
+}
+
+.dofa-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dofa-footer button {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dofa-footer button:hover {
+  background-color: #005f8a;
+}
